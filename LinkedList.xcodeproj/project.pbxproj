@@ -28,14 +28,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1E15990F21B9E59900A411A9 /* Linked List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Linked List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E15990F21B9E59900A411A9 /* LinkedList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkedList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E15991221B9E59900A411A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E15991421B9E59900A411A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1E15991721B9E59900A411A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E15991921B9E59B00A411A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E15991C21B9E59C00A411A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E15991E21B9E59C00A411A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E15992321B9E59C00A411A9 /* Linked ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Linked ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E15992321B9E59C00A411A9 /* LinkedListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkedListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E15992721B9E59C00A411A9 /* Linked_ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linked_ListTests.swift; sourceTree = "<group>"; };
 		1E15992921B9E59C00A411A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E15993521B9EAA600A411A9 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
@@ -63,8 +63,8 @@
 		1E15990621B9E59900A411A9 = {
 			isa = PBXGroup;
 			children = (
-				1E15991121B9E59900A411A9 /* Linked List */,
-				1E15992621B9E59C00A411A9 /* Linked ListTests */,
+				1E15991121B9E59900A411A9 /* LinkedList */,
+				1E15992621B9E59C00A411A9 /* LinkedListTests */,
 				1E15991021B9E59900A411A9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,13 +72,13 @@
 		1E15991021B9E59900A411A9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1E15990F21B9E59900A411A9 /* Linked List.app */,
-				1E15992321B9E59C00A411A9 /* Linked ListTests.xctest */,
+				1E15990F21B9E59900A411A9 /* LinkedList.app */,
+				1E15992321B9E59C00A411A9 /* LinkedListTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1E15991121B9E59900A411A9 /* Linked List */ = {
+		1E15991121B9E59900A411A9 /* LinkedList */ = {
 			isa = PBXGroup;
 			children = (
 				1E15993221B9EA7D00A411A9 /* Model */,
@@ -90,16 +90,16 @@
 				1E15991B21B9E59C00A411A9 /* LaunchScreen.storyboard */,
 				1E15991E21B9E59C00A411A9 /* Info.plist */,
 			);
-			path = "Linked List";
+			path = LinkedList;
 			sourceTree = "<group>";
 		};
-		1E15992621B9E59C00A411A9 /* Linked ListTests */ = {
+		1E15992621B9E59C00A411A9 /* LinkedListTests */ = {
 			isa = PBXGroup;
 			children = (
 				1E15992721B9E59C00A411A9 /* Linked_ListTests.swift */,
 				1E15992921B9E59C00A411A9 /* Info.plist */,
 			);
-			path = "Linked ListTests";
+			path = LinkedListTests;
 			sourceTree = "<group>";
 		};
 		1E15993221B9EA7D00A411A9 /* Model */ = {
@@ -129,9 +129,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1E15990E21B9E59900A411A9 /* Linked List */ = {
+		1E15990E21B9E59900A411A9 /* LinkedList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E15992C21B9E59C00A411A9 /* Build configuration list for PBXNativeTarget "Linked List" */;
+			buildConfigurationList = 1E15992C21B9E59C00A411A9 /* Build configuration list for PBXNativeTarget "LinkedList" */;
 			buildPhases = (
 				1E15990B21B9E59900A411A9 /* Sources */,
 				1E15990C21B9E59900A411A9 /* Frameworks */,
@@ -141,14 +141,14 @@
 			);
 			dependencies = (
 			);
-			name = "Linked List";
+			name = LinkedList;
 			productName = "Linked List";
-			productReference = 1E15990F21B9E59900A411A9 /* Linked List.app */;
+			productReference = 1E15990F21B9E59900A411A9 /* LinkedList.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1E15992221B9E59C00A411A9 /* Linked ListTests */ = {
+		1E15992221B9E59C00A411A9 /* LinkedListTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E15992F21B9E59C00A411A9 /* Build configuration list for PBXNativeTarget "Linked ListTests" */;
+			buildConfigurationList = 1E15992F21B9E59C00A411A9 /* Build configuration list for PBXNativeTarget "LinkedListTests" */;
 			buildPhases = (
 				1E15991F21B9E59C00A411A9 /* Sources */,
 				1E15992021B9E59C00A411A9 /* Frameworks */,
@@ -159,9 +159,9 @@
 			dependencies = (
 				1E15992521B9E59C00A411A9 /* PBXTargetDependency */,
 			);
-			name = "Linked ListTests";
+			name = LinkedListTests;
 			productName = "Linked ListTests";
-			productReference = 1E15992321B9E59C00A411A9 /* Linked ListTests.xctest */;
+			productReference = 1E15992321B9E59C00A411A9 /* LinkedListTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -183,7 +183,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1E15990A21B9E59900A411A9 /* Build configuration list for PBXProject "Linked List" */;
+			buildConfigurationList = 1E15990A21B9E59900A411A9 /* Build configuration list for PBXProject "LinkedList" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -196,8 +196,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1E15990E21B9E59900A411A9 /* Linked List */,
-				1E15992221B9E59C00A411A9 /* Linked ListTests */,
+				1E15990E21B9E59900A411A9 /* LinkedList */,
+				1E15992221B9E59C00A411A9 /* LinkedListTests */,
 			);
 		};
 /* End PBXProject section */
@@ -247,7 +247,7 @@
 /* Begin PBXTargetDependency section */
 		1E15992521B9E59C00A411A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1E15990E21B9E59900A411A9 /* Linked List */;
+			target = 1E15990E21B9E59900A411A9 /* LinkedList */;
 			targetProxy = 1E15992421B9E59C00A411A9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -441,7 +441,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Linked List.app/Linked List";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkedList.app/LinkedList";
 			};
 			name = Debug;
 		};
@@ -462,14 +462,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Linked List.app/Linked List";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkedList.app/LinkedList";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1E15990A21B9E59900A411A9 /* Build configuration list for PBXProject "Linked List" */ = {
+		1E15990A21B9E59900A411A9 /* Build configuration list for PBXProject "LinkedList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1E15992A21B9E59C00A411A9 /* Debug */,
@@ -478,7 +478,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1E15992C21B9E59C00A411A9 /* Build configuration list for PBXNativeTarget "Linked List" */ = {
+		1E15992C21B9E59C00A411A9 /* Build configuration list for PBXNativeTarget "LinkedList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1E15992D21B9E59C00A411A9 /* Debug */,
@@ -487,7 +487,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1E15992F21B9E59C00A411A9 /* Build configuration list for PBXNativeTarget "Linked ListTests" */ = {
+		1E15992F21B9E59C00A411A9 /* Build configuration list for PBXNativeTarget "LinkedListTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1E15993021B9E59C00A411A9 /* Debug */,
