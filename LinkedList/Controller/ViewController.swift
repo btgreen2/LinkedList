@@ -41,6 +41,7 @@ class ViewController: UIViewController {
     let orderedButton : UIButton = {
         let button = UIButton()
         button.setTitle("Order", for: .normal)
+        button.titleLabel?.adjustsFontSizeToFitWidth = true
         button.backgroundColor = .blue
         return button
     }()
@@ -61,7 +62,7 @@ class ViewController: UIViewController {
     
     let orderedField : UITextField = {
         let field = UITextField()
-        field.placeholder = "Add node in order."
+        field.placeholder = "Insert node in order."
         field.keyboardType = .numberPad
         return field
     }()

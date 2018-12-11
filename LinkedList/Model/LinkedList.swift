@@ -18,9 +18,17 @@ class Node{
 }
 
 
+
 class LinkedList{
+    
     var head : Node?
     private var count = 0
+    
+    func getCount() -> Int{
+        return count
+    }
+    
+    //MARK: - Insert Methods
     
     func insert(_ value : Int){
         if head == nil{
@@ -30,7 +38,7 @@ class LinkedList{
             insertHelper(node: head, value: value)
         }
     }
-    
+
     private func insertHelper(node : Node?, value : Int){
         
         if node?.next == nil{
@@ -40,6 +48,8 @@ class LinkedList{
             insertHelper(node: node?.next, value: value)
         }
     }
+    
+    //MARK: - Index Methods
     
     func nodeAt(_ index : Int) -> Node?{
         return indexHelper(node: head, index: index)
@@ -59,6 +69,7 @@ class LinkedList{
 
     }
     
+    //MARK: - Delete Methods
     
     func delete(value : Int){
         if head?.value == value{
@@ -79,6 +90,7 @@ class LinkedList{
         }
     }
     
+    //MARK: - Ordered Insert Methods
     
     func insertInOrder(_ value : Int){
         
@@ -115,10 +127,8 @@ class LinkedList{
         }
     }
     
-    func getCount() -> Int{
-        return count
-    }
     
+    //MARK: - Print Methods
     
     func printList(){
         printHelper(node: head)
@@ -126,7 +136,7 @@ class LinkedList{
     
     private func printHelper(node : Node?){
         if node != nil{
-            print(node?.value)
+            print(node?.value as Any)
             printHelper(node: node?.next)
         }
         
