@@ -12,9 +12,10 @@
 		1E15991821B9E59900A411A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E15991621B9E59900A411A9 /* Main.storyboard */; };
 		1E15991A21B9E59B00A411A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E15991921B9E59B00A411A9 /* Assets.xcassets */; };
 		1E15991D21B9E59C00A411A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E15991B21B9E59C00A411A9 /* LaunchScreen.storyboard */; };
-		1E15992821B9E59C00A411A9 /* Linked_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E15992721B9E59C00A411A9 /* Linked_ListTests.swift */; };
 		1E15993621B9EAA600A411A9 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E15993521B9EAA600A411A9 /* LinkedList.swift */; };
 		1E15993821BA035500A411A9 /* NodeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E15993721BA035500A411A9 /* NodeCollectionViewCell.swift */; };
+		1E15993A21BF3C6F00A411A9 /* LinkedListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E15992721B9E59C00A411A9 /* LinkedListTests.swift */; };
+		1E15993D21BF453500A411A9 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E15993521B9EAA600A411A9 /* LinkedList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 		1E15991C21B9E59C00A411A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E15991E21B9E59C00A411A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E15992321B9E59C00A411A9 /* LinkedListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkedListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E15992721B9E59C00A411A9 /* Linked_ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linked_ListTests.swift; sourceTree = "<group>"; };
+		1E15992721B9E59C00A411A9 /* LinkedListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListTests.swift; sourceTree = "<group>"; };
 		1E15992921B9E59C00A411A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E15993521B9EAA600A411A9 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		1E15993721BA035500A411A9 /* NodeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -96,7 +97,7 @@
 		1E15992621B9E59C00A411A9 /* LinkedListTests */ = {
 			isa = PBXGroup;
 			children = (
-				1E15992721B9E59C00A411A9 /* Linked_ListTests.swift */,
+				1E15992721B9E59C00A411A9 /* LinkedListTests.swift */,
 				1E15992921B9E59C00A411A9 /* Info.plist */,
 			);
 			path = LinkedListTests;
@@ -238,7 +239,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E15992821B9E59C00A411A9 /* Linked_ListTests.swift in Sources */,
+				1E15993D21BF453500A411A9 /* LinkedList.swift in Sources */,
+				1E15993A21BF3C6F00A411A9 /* LinkedListTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +433,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6VBGP45D96;
-				INFOPLIST_FILE = "Linked ListTests/Info.plist";
+				INFOPLIST_FILE = LinkedListTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +454,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6VBGP45D96;
-				INFOPLIST_FILE = "Linked ListTests/Info.plist";
+				INFOPLIST_FILE = LinkedListTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
