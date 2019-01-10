@@ -48,21 +48,21 @@ class ViewController: UIViewController {
     
     let addTextField : UITextField = {
         let field = UITextField()
-        field.placeholder = "Add node by value."
+        field.placeholder = "Add node by value"
         field.keyboardType = .numberPad
         return field
     }()
     
     let deleteTextField : UITextField = {
         let field = UITextField()
-        field.placeholder = "Delete node by value."
+        field.placeholder = "Delete node by value"
         field.keyboardType = .numberPad
         return field
     }()
     
     let orderedField : UITextField = {
         let field = UITextField()
-        field.placeholder = "Insert node in order."
+        field.placeholder = "Insert node in order"
         field.keyboardType = .numberPad
         return field
     }()
