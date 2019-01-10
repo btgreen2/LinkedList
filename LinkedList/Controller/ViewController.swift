@@ -55,7 +55,7 @@ class ViewController: UIViewController {
     
     let deleteTextField : UITextField = {
         let field = UITextField()
-        field.placeholder = "Delete the node by value."
+        field.placeholder = "Delete node by value."
         field.keyboardType = .numberPad
         return field
     }()
